@@ -1,0 +1,29 @@
+# SALES-Dashboard
+
+Problem Statement
+The sales dashboard is designed to help our company understand customer behavior and improve internet sales reports. By analyzing the quantity of products sold, the company can identify high-performing sales areas and focus on providing more of these products. Additionally, it highlights average delay and departure times, allowing the company to address these issues and enhance customer satisfaction.
+
+The dashboard reveals that neutral or dissatisfied customers (57%) outnumber satisfied customers (43%), indicating a need to improve services. The average delay in arrival and departure is 15 minutes, suggesting areas for operational improvements.
+
+Steps Followed
+1. Load Data: Import the CSV dataset into Power BI Desktop.
+2. Data Profiling:
+Open Power Query Editor.
+Enable "Column Distribution," "Column Quality," and "Column Profile" in the View tab.
+Profile the entire dataset instead of just the first 1000 rows.
+3. Data Cleaning:
+Identify and handle errors and empty values, specifically in the "Arrival Delay" column.
+Exclude null values when calculating average delay times.
+4. Theme Selection: Apply a theme to the report.
+5.Visual Representation of Ratings:
+Add visuals for various ratings using the visualizations pane.
+Use slicers for "Class," "Customer Type," "Gate Location," and "Type of Travel."
+6. Card Visuals: Add cards for average departure and arrival delays, excluding null values.
+7. Bar Chart: Create a bar chart for customer satisfaction levels, segregated by gender.
+8. Ratings Visual: Use visuals to represent ratings for multiple parameters like baggage handling, check-in services, cleanliness, and more.
+9. Text and Image Insertion: Add text boxes for the airline name and tagline, and insert the company logo.
+10. Age Group Calculation: Create a calculated column for age groups using DAX expressions.
+11. Customer Count: Create a measure to count the total number of customers and represent it using a card visual.
+12. Customer Percentage: Calculate and display the percentage of customers using DAX.
+13. Total Distance Travelled: Calculate and display the total distance travelled by flights using a card visual.
+14. Publish Report: Publish the report to Power BI Service.
